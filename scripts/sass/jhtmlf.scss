@@ -1,0 +1,33 @@
+/*This websites CSS File is created with */
+.jeffsdeliciouscookies{
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: black;
+color: white;
+padding: 0 32px;
+transition: 400ms;
+box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.151);
+}
+
+.jeffs-delicious-cookies a{
+color: white;
+}
+
+.jeffsdeliciouscookies.active{
+    bottom: 0;
+    
+}
+
+.cookiebutton{
+background: red;
+border: 0;
+color: white;
+padding: 12px 48px;
+font-size: 18px;
+margin-top: 16px;
+margin-bottom: 8px;
+border-radius: 8px;
+cursor: pointer;
+}
